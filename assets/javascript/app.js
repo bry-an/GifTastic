@@ -7,16 +7,18 @@ var giphy = {
 
     ajaxGiphy: function (searchTerm, salty) {
         var queryURL;
+        //feeling salty
         if (searchTerm && salty) {
             queryURL = "https://api.giphy.com/v1/gifs/search" +
                 "?q=" + searchTerm + "&api_key=xFg7oHr1yOvSvcjipxfVQdzeTcTpow3K&limit=100&rating=r";
 
         }
+        //not feeling salty
         else if (searchTerm) {
             queryURL = "https://api.giphy.com/v1/gifs/search" +
                 "?q=" + searchTerm + "&api_key=xFg7oHr1yOvSvcjipxfVQdzeTcTpow3K&limit=10";
         }
-        //default when page loads?
+        //default when page loads
         else queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=xFg7oHr1yOvSvcjipxfVQdzeTcTpow3K&limit=10";
 
         $.ajax({
@@ -34,7 +36,7 @@ var giphy = {
                             .attr("data-state", "still")
                             .attr("data-animate", gif.images.fixed_height.url)
                             .attr("class", "gif");
-                        $(gifDiv).append(newGif)
+                        $(gifDiv).append(newGif);
                         $("#gifs").prepend(gifDiv);
                     }
                 });
@@ -108,7 +110,7 @@ $(document).ready(function () {
     $(document).on("click", ".gif", function () {
         giphy.playPause(this);
 
-    })
+    });
     $("#addBtn").on("click", function () {
         giphy.addTopic($("#newTopic").val());
 
