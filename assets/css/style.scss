@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    border: 1px solid #33c3f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+.btnSmall {
+    height: 22px;
+    margin-right: 5px;
+    line-height: 12px;
+}
+
+.gifDiv {
+    margin: 5px;
+    float: left;
+}
+
+.gifDiv p {
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+    margin: 0 8px 10px 0;
+}
+
+.searchBox {
+    border: 1px solid #ccc;
+    padding: 5px;
+}

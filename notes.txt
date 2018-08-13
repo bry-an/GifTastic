@@ -1,0 +1,5 @@
+ Basic functionality. 
+
+Pause / animate all buttons 
+Two apps: one using jQuery and fulfills class requirements (but also has weather functionality and pause/animate all buttons and "I'm feeling saucy" button for R-rated stuff); another that uses react to create a stream of consciousness mode.
+
