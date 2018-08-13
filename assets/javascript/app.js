@@ -2,8 +2,8 @@
 
 var giphy = {
     topics: ["angry", "frustrated", "happy", "elated", "confused",
-        "paranoid", "sarcastic", "surprised", "disgusted", "terrified",
-        "enraged", "wicked", "stoned", "neurotic"],
+        "paranoid", "sarcastic", "surprised", "sad", "disgusted", "terrified",
+        "wicked", "stoned", "neurotic"],
 
     ajaxGiphy: function (searchTerm, salty) {
         var queryURL;
