@@ -9,7 +9,7 @@ var giphy = {
         //feeling salty
         if (searchTerm && salty) {
             queryURL = "https://api.giphy.com/v1/gifs/search" +
-                "?q=" + searchTerm + "&api_key=xFg7oHr1yOvSvcjipxfVQdzeTcTpow3K&limit=100&rating=r";
+                "?q=" + searchTerm + "&api_key=xFg7oHr1yOvSvcjipxfVQdzeTcTpow3K&limit=300&rating=r";
 
         }
         //not feeling salty
