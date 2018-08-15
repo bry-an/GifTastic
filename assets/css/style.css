@@ -12,6 +12,10 @@ h1 {
   font-size: 7rem;
 }
 
+hr {
+  border: 1px solid #ccc;
+}
+
 .btnSmall {
   height: 22px;
   margin-right: 5px;
