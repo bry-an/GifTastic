@@ -1,4 +1,3 @@
-//API call
 
 var giphy = {
     topics: ["angry", "frustrated", "happy", "elated", "confused",
@@ -92,11 +91,7 @@ var giphy = {
         this.topics.push(topic);
         this.fillButtons();
     }
-
-
-
 }
-
 
 $(document).ready(function () {
     giphy.fillButtons();

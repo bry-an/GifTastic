@@ -6,9 +6,11 @@
 }
 
 h1 {
+  padding-top: 20px;
   text-align: center;
   font-family: "Indie Flower", cursive;
   color: red;
+  font-size: 7rem;
 }
 
 .btnSmall {
@@ -33,7 +35,7 @@ input[type=checkbox] {
 .searchBox {
   border: 1px solid #ccc;
   padding: 5px;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
